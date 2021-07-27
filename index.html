@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font MAaterialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+    <!-- josefin sans google font cdn -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="blue lighten-2">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo">SubhWorld</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
+        </ul>
+      </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
+    </ul>
+    <!-- navbar ends -->
+
+    <!-- modal start -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Login Here</h4>
+        <hr>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="username" type="text" class="validate">
+            <label for="username">UserName</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="modal-close waves-effect waves-light btn">Submit</a>
+        <a href="#" class="modal-close waves-effect red darken-4 waves-light btn">Close</a>
+      </div>
+    </div>
+    <!-- modal ends -->
+    
+    <!-- home slider starts -->
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img class="slider-img" src="images/1.png"></a>
+      <!-- ////---text & button content in carousel start---//// -->
+      <div class="carousel-fixed-item center">
+        <h2 class="white-text">Heading For The Carousel</h2>
+        <p class="white-text">The caption/description for carousel</p>
+        <a class="waves-effect waves-light btn" href="#" target="_blank"><i class="material-icons right">send</i>more info</a>
+      </div>
+      <!-- ////---text & button content in carousel end---//// -->
+      <a class="carousel-item" href="#two!"><img class="slider-img" src="images/2.png"></a>
+      <a class="carousel-item" href="#three!"><img class="slider-img" src="images/3.png"></a>
+      <a class="carousel-item" href="#four!"><img class="slider-img" src="images/4.png"></a>
+    </div>
+    <!-- home slider ends -->
+
+    <!-- floating action button starts -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+      </ul>
+    </div>
+    <!-- floating action button ends -->
+
+    <!-- about us start -->
+    <section id="about">
+      <h2 class="center-align blue-text">About Us</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 xl4 offset-xl4 offset-s4 offset-m4 offset-l4"><hr></div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6 xl6">
+          <img src="images/5.png" class="responsive-img about-img circle">
+        </div>
+        <div class="col s12 m6 l6 xl6">
+          <h4>Who Am I?</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Ab placeat, nobis sit molestiae fugit natus voluptate, suscipit velit iste pariatur molestias facere quae dolore, blanditiis, voluptas asperiores dolor repudiandae. Magni.</p>
+          <a href="#" class="btn waves-effect waves-light blue white-text">Know More</a>
+        </div>
+      </div>
+    </section>
+    <!-- about us end -->
+
+    <!-- our services start -->
+    <section>
+      <h2 class="center-align blue-text">Our Services</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 xl4 offset-xl4 offset-s4 offset-m4 offset-l4"><hr></div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 l4 xl4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/6.png" class="responsive-img">
+              <span class="card-title">Card Title</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="pink-text darken-4">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/6.png" class="responsive-img">
+              <span class="card-title">Card Title</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="pink-text darken-4">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/6.png" class="responsive-img">
+              <span class="card-title">Card Title</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="pink-text darken-4">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our services end -->
+
+    <!-- gallery starts -->
+    <section>
+      <h2 class="center-align blue-text">Gallery</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 xl4 offset-xl4 offset-s4 offset-m4 offset-l4"><hr></div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/1.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/2.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/1.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/2.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/1.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/2.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/1.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/2.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 m4 l4 xl4">
+          <img src="images/1.png" data-caption="Caption For The Image" class="responsive-img materialboxed">
+        </div>
+      </div>
+    </section>
+    <!-- gallery ends -->
+
+    <!-- contact us start -->
+    <section>
+      <h2 class="center-align blue-text">Contact Us</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 xl4 offset-xl4 offset-s4 offset-m4 offset-l4"><hr></div>
+      </div>
+      <div class="row">
+        <div class="col l6 m6 offset-l3">
+          <form>
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="mobile" type="text" class="validate" data-length="10">
+                  <label for="mobile">Phone No.</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="comment" class="materialize-textarea"></textarea>
+                      <label for="comment">Describe your comment here</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="file-field input-field">
+                <div class="btn">
+                  <span>File</span>
+                  <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                  <input class="file-path validate" type="text">
+                </div>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" onclick="M.toast({html: 'Form Submitted'})">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- footer start -->
+<footer class="page-footer blue">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2021 SubhWorld
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+    <!-- footer end -->
+
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Import materialize.js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- static javascript -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
